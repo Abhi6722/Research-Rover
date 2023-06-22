@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:researchrover/routes.dart';
-import 'package:researchrover/screens/auth_screen.dart';
 import 'package:researchrover/theme.dart';
 
 

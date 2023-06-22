@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:researchrover/screens/register_screen.dart';
+import 'package:researchrover/screens/welcome_screen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'home_screen.dart';
@@ -17,7 +17,7 @@ class AuthScreen extends StatelessWidget {
             return const HomeScreen();
           } else {
             // Email does not exist, navigate to RegisterScreen
-            return const RegisterScreen();
+            return const WelcomeScreen();
           }
         } else {
           // Loading state, show a loading indicator
