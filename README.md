@@ -1,6 +1,6 @@
 <p align="center">
     <a href="https://github.com/Abhi6722/Research-Rover">
-        <img alt="Research Rover" src="https://github.com/Abhi-6722/Research-Rover/blob/main/assets/images/SquareLogo.png" width="146">
+        <img alt="Research Rover" src="https://github.com/Abhi6722/Research-Rover/blob/main/assets/images/SquareLogo.png" width="146">
     </a>
 </p>
 
@@ -12,7 +12,7 @@ Research Rover is a platform that revolutionizes access to research papers and e
 
 ***
 
-![Research Rover](https://github.com/Abhi-6722/Research-Rover/assets/79162510/7708f618-5d53-4df5-a030-f602a7de412b)
+![Research Rover Banner](https://github.com/Abhi6722/Research-Rover/blob/main/assets/images/Research-Rover-Banner.png)
 
 ## Problem Statement:
 Keeping up with the vast amount of research papers and staying informed about the latest developments in various fields is a challenge for researchers. Accessing relevant research papers based on specific interests is time-consuming and cumbersome.
@@ -42,9 +42,8 @@ Research Rover aims to streamline the research paper discovery process and make 
 #### If you find Research Rover useful, please consider giving it a star ⭐ and feel free to fork 🍽️ the repository to contribute or customize it for your needs!
 
 *You can install and test the latest Research Rover app from the following link:*
-
-[Download Research Rover App](https://github.com/Abhi-6722/Research-Rover/releases/download/v1/app-release.apk)
+[Download Research Rover App](https://github.com/Abhi6722/Research-Rover/releases/download/v1/research-rover.apk)
 
 # Demo Video:
-[![Research Rover Demo Video](https://example.com/thumbnail_image.png)](https://example.com/video.mp4)
+[![Research Rover Demo Video](https://github.com/Abhi6722/Research-Rover/blob/main/assets/images/Research-Rover-Banner.png)](https://youtu.be/4GJ84qS809Q)
 
