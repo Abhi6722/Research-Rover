@@ -88,7 +88,7 @@ class _LoginScreenState extends State<LoginScreen> {
     }
   }
 
-  // Verify OTP and Register User
+  // Function to Verify OTP and Register User
   void loginUser() async {
     setState(() {
       loading = true;

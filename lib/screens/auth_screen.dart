@@ -14,16 +14,16 @@ class AuthScreen extends StatelessWidget {
           final emailExists = snapshot.data!;
           if (emailExists) {
             // Email exists, navigate to HomeScreen
-            return const HomeScreen();
+            return const HomeScreen(); // Renders the HomeScreen widget
           } else {
             // Email does not exist, navigate to RegisterScreen
-            return const WelcomeScreen();
+            return const WelcomeScreen(); // Renders the WelcomeScreen widget
           }
         } else {
           // Loading state, show a loading indicator
           return const Scaffold(
             body: Center(
-              child: CircularProgressIndicator(),
+              child: CircularProgressIndicator(), // Renders a CircularProgressIndicator while loading
             ),
           );
         }
@@ -34,6 +34,6 @@ class AuthScreen extends StatelessWidget {
   Future<bool> checkEmailExists() async {
     final prefs = await SharedPreferences.getInstance();
     final email = prefs.getString('email');
-    return email != null;
+    return email != null; // Returns a boolean indicating if the email exists in SharedPreferences
   }
 }

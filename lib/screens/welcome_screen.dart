@@ -27,6 +27,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
     );
   }
 
+  // Builds the layout for small screens (mobiles)
   Widget _buildMobileLayout() {
     return Center(
       child: Container(
@@ -153,6 +154,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
     );
   }
 
+  // Builds the layout for larger screens (web)
   Widget _buildWebLayout() {
     return Container(
       decoration: const BoxDecoration(

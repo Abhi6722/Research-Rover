@@ -15,6 +15,7 @@ class _PreferencesScreenState extends State<PreferencesScreen> {
   Set<String> selectedGenres = {};
   bool loading = false; // Add a loading flag
 
+  // Logic to handle the selection
   void _onButtonPressed(String genreName) {
     setState(() {
       if (selectedGenres.contains(genreName)) {
@@ -25,6 +26,7 @@ class _PreferencesScreenState extends State<PreferencesScreen> {
     });
   }
 
+  // Function to Update the User preferences
   Future<void> saveSelectedTopics() async {
     setState(() {
       loading = true; // Show the loading indicator
@@ -103,6 +105,7 @@ class _PreferencesScreenState extends State<PreferencesScreen> {
     }
   }
 
+  // Widget that builds the single option
   Widget _buildGenreButton(String genreName) {
     final isSelected = selectedGenres.contains(genreName);
     return InkWell(
@@ -183,6 +186,8 @@ class _PreferencesScreenState extends State<PreferencesScreen> {
                             alignment: WrapAlignment.start,
                             spacing: 20.0,
                             runSpacing: 18.0,
+
+                            // We can add as many topics we want here
                             children: [
                               _buildGenreButton('Computing and Processing'),
                               _buildGenreButton('Transportation'),

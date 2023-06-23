@@ -20,6 +20,7 @@ class _HomeScreenState extends State<HomeScreen> {
   TextEditingController dayController = TextEditingController();
   TextEditingController timeController = TextEditingController();
 
+  // String to store the Days
   final List<String> daysOfWeek = [
     'Monday',
     'Tuesday',
@@ -32,6 +33,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   void initState() {
+    // Calling the get user info function initially to get user details as soon as page loads
     super.initState();
     getUserInfo();
   }
@@ -84,6 +86,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return selectedTime;
   }
 
+  // Function to update the user preferences of Day and Time
   void updatePreferences() async {
     final prefs = await SharedPreferences.getInstance();
     var userEmail = prefs.getString('email');
