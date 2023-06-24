@@ -95,3 +95,5 @@ Make sure that there is no breaking changes in the application and it follows al
 # Demo Video:
 [![Research Rover Demo Video](https://github.com/Abhi6722/Research-Rover/blob/main/assets/images/Research-Rover-Banner.png)](https://youtu.be/4GJ84qS809Q)
 
+# License:
+Research Rover is a open source project and released under the MIT License.
